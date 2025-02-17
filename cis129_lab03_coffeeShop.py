@@ -11,8 +11,9 @@ SalesTax = float(.06)
 
 
 #Displays the beginning of the question prompt
-print('***************************************', 
-      "\nMatt Fitz's Coffee and Muffin Shop")
+print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*', 
+      "\nMatt Fitz's Coffee and Muffin Shop",
+      "\nIt's great when you pretend to spend!")
 
 #Assigning Variables to prompts for user input to determine
 #number of coffees and muffins ordered.
@@ -20,7 +21,7 @@ CoffeeCount = int(input('Number of coffees bought?'))
 MuffinCount = int(input('Number of muffins bought?'))
 
 #Displays the end of the question prompt
-print('***************************************')
+print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*')
 
 #Assigning a variable to the totals before calculating tax.
 CoffeeTotal= (CoffeeCount * CoffeePrice) 
@@ -35,9 +36,10 @@ Tax = (Total * SalesTax)
 TotalWithTax = (Tax + Total) 
 
 #Beginning of the receipt
-print("***************************************",
-      "\nMatt Fitz's Coffee and Muffin Shop Receipt")
-
+print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*",
+      "\nFitz's Coffee and Muffin Shop Receipt",
+     "\nThe economy is tough right now!")
+      
 #The body of the receipt, detailing the prices 
 #individually and amounts totaled.
 print(CoffeeCount,'Coffee at $5 each:$',CoffeeTotal,'.00')
@@ -45,7 +47,9 @@ print(MuffinCount,'Muffin at $4 each:$',MuffinTotal,'.00')
 print('6% tax:$',Tax)
 print('---------')
 
-#The end of the receipt, signaling the end of the programs use.
+#The end of the receipt, signaling the end of the programs use, and thanking the user.
 print('Total: $',TotalWithTax)
-print('***************************************')
+print("Thank you for choosing, Fitz's Coffee and Muffin Shop.")
+print('Come back soon and we still might be in business!')
+print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*')
 

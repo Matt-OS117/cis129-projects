@@ -14,7 +14,7 @@ SalesTax = float(.06)
 
 #Displays the beginning of the question prompt
 print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*', 
-      "\nMatt Fitz's Coffee and Muffin Shop",
+      "\nFitz's Coffee and Muffin Shop",
       "\nIt's great when you pretend to spend!")
 
 #Assigning Variables to prompts for user input to determine

@@ -60,12 +60,12 @@ if TotalWithTax < int(20):
 print(CoffeeCount,'Coffee at $5 each:$',CoffeeTotal,'.00')
 print(MuffinCount,'Muffin at $4 each:$',MuffinTotal,'.00')
 print(DanishCount,'Danish at $6 each:$',DanishTotal,'.00')
-print(BiscottiCount,'Biscotti at $.65 each:$',BiscottiTotal,'.00')
+print(BiscottiCount,'Biscotti at $.65 each:$',round(BiscottiTotal, ndigits=2))
 print('6% tax:$',RoundedTax)
 print('---------')
 
 #The end of the receipt, signaling the end of the programs use, and thanking the user.
-print('Total: $',TotalWithTax)
+print('Total: $',round(TotalWithTax, ndigits=2))
 print("Thank you for choosing, Fitz's Coffee and Muffin Shop.")
 print('Come back soon and we still might be in business!')
 print('*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*')

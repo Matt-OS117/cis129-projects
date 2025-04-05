@@ -2,7 +2,7 @@
 #Matt Fitzsimmons
 #CIS129
 #This program is designed to find the income generated from a night of sales at a dramatic theater.
-#The primary focus validating user input to ensure it is an integer.
+#Designed to use multiple functions, to validate, to compare, to update and display strings with dynamiac variables. I think that sounds right. Haha.
 
 #Establishing a list to allow for ease of access and customizability.
 SECTION_ = ['A', 'B', 'C']
